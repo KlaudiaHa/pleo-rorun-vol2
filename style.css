@@ -153,6 +153,10 @@ section.skills .skills-wrapper {
     
 }
 
+.sentence h2 {
+    font-size: 45pt;
+    font-weight: 600;
+}
 section.skills .skills-wrapper .skills-item {
     width: 33,3%;
     text-align: center;
@@ -190,6 +194,9 @@ section.cooperation p {
     font-size: 23pt;
     margin-top: 0;
 }
+section.skills .skills-wrapper .skills-item img {
+    height: 80px;
+}
 
 .cooperation .cooperation-wrapper {
     display: flex;
@@ -212,11 +219,37 @@ section.cooperation .cooperation-wrapper .partner {
     background-color:white;
     margin: 25px auto;
 }
+section.skills .skills-wrapper .skills-item h4 {
+    font-size: 18pt;
+    margin: 30px 0 30px;
+}
 
 
+section.achievements  {
+    background-color: rgb(233, 233, 233);
+    height: 300px;
+}
 
+section.achievements .achievements-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
 
+section.achievements .achievements-wrapper h4 {
+    margin-top: 20px;
+    font-size: 50pt;
+    color: #4ea392;
+    text-align: center;
+    margin-top: 100px;
+}
 
+section.achievements .achievements-wrapper p {
+    margin:0;
+    font-size: 18pt;
+    color: grey;
+    font-weight: 300;
+    text-align: center;
+}
 
 
 
