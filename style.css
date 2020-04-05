@@ -4,6 +4,7 @@
 
 body {
     margin: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 
 ul, ol {
@@ -19,7 +20,6 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0 auto;
     padding: 0 15px;
 }
-
 
 header {
     position: fixed;
@@ -46,13 +46,27 @@ header nav ul {
     margin: 0;
     padding: 0;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+}
+
+header nav ul li {
+    font-size: 12pt;
+    text-align: center;
+    padding: 20px 0;
+    margin-left: 50px;
 }
 
 header nav ul li a {
     color: #4ea392;
     text-decoration: none;
-    display: flex;
+}
+
+header nav ul li:last-child {
+    margin-left: 400px;
+}
+
+header nav ul li:first-child {
+    font-weight: bold;
 }
 
 section.banner {
@@ -75,3 +89,9 @@ section.banner h1 {
 section.banner a {
     
 }
+
+
+
+
+
+
