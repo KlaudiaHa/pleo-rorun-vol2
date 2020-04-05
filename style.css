@@ -179,6 +179,34 @@ section.skills .skills-wrapper .skills-item p {
     font-size: 13pt;
 }
 
+section.achievements  {
+    background-color: rgb(233, 233, 233);
+    height: 300px;
+}
+
+section.achievements .achievements-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+section.achievements .achievements-wrapper h4 {
+    margin-top: 20px;
+    font-size: 50pt;
+    color: #4ea392;
+    text-align: center;
+    margin-top: 100px;
+}
+
+section.achievements .achievements-wrapper p {
+    margin:0;
+    font-size: 18pt;
+    color: grey;
+    font-weight: 300;
+    text-align: center;
+}
+
+
+
 
 
 
