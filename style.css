@@ -1,7 +1,8 @@
 * {
     box-sizing: border-box;
-    }
-    body {
+}
+
+body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
@@ -9,17 +10,17 @@
 ul, ol {
     padding: 0;
     margin: 0;
-    }
+}
 
-    h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {
     margin: 0;
-    }
+}
 
-    .container {
+.container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
-    }
+}
 
 header {
     position: fixed;
@@ -27,21 +28,21 @@ header {
     left: 0;
     width: 100%;
     background-color: #fff;
-    }
+}
 
-    header .header {
+header .header {
     display: flex;
     justify-content: space-between;
     padding: 20px 0;
     align-items: center;
     position: relative;
-    }
+}
 
-    header a.logo img {
+header a.logo img {
     height: 25px;
-    }
+}
 
-    header nav ul {
+header nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -54,8 +55,9 @@ header nav ul li {
     text-align: center;
     padding: 20px 0;
     margin-left: 50px;
-    font-weight: 300;
+    font-weight: 400;
 }
+
 header nav ul li a {
     color: #4ea392;
     text-decoration: none;
@@ -78,46 +80,58 @@ section.banner {
     text-align: left;
     padding: 150px 0;
     margin: 50px auto;
-    }
+}
 
-    section.banner h1 {
+section.banner h1 {
     margin: 0;
     font-size: 100pt;
     line-height: 85pt;
     font-weight: 800;
-    }
+}
 
-    section.banner h2 {
+section.banner h2 {
     font-size: 54pt;
     font-weight: 400;
-    }
+}
 
-    section.banner .description {
+section.banner .description {
     font-size: 18pt;
     font-weight: 400;
-    }
+}
 
-    section.banner .description::after {
+section.banner .description::after {
     content: "";
     display: block;
-=======
+}
+
 section.banner h2 {
     font-size: 54pt;
 }
+
 section.banner .description {
     font-size: 18pt;
 }
 section.banner .description::after {
     display: block;
     content: "";
->>>>>>> master
     width: 300px;
     max-width: 100%;
     height: 2px;
     background-color: white;
     margin: 50px 0 ;
-    }
+}
 
-    section.banner .adress {
+section.banner .adress {
     font-style: italic;
-    }
+}
+
+
+
+
+
+
+
+
+
+
+
