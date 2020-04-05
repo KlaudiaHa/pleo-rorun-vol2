@@ -54,7 +54,7 @@ header nav ul li {
     text-align: center;
     padding: 20px 0;
     margin-left: 50px;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 header nav ul li a {
@@ -103,3 +103,14 @@ section.banner .description::after {
 section.banner .adress {
     font-style: italic;
 }
+
+
+
+
+
+
+
+
+
+
+
