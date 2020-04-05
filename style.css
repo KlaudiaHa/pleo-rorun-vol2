@@ -83,7 +83,6 @@ section.banner {
 }
 
 section.banner h1 {
-    margin: 0;
     font-size: 100pt;
     line-height: 85pt;
     font-weight: 800;
@@ -125,6 +124,31 @@ section.banner .adress {
     font-style: italic;
 }
 
+section.skills .skills-wrapper {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+section.skills .skills-wrapper .skills-item {
+    width: 33,3%;
+    text-align: center;
+    margin: 60px 0;
+    padding: 0 30px;
+}
+
+section.skills .skills-wrapper .skills-item img {
+    height: 80px;
+}
+
+section.skills .skills-wrapper .skills-item h4 {
+    font-size: 18pt;
+    margin: 30px 0 30px;
+}
+
+section.skills .skills-wrapper .skills-item p {
+    font-size: 13pt;
+}
 
 
 
