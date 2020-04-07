@@ -78,8 +78,12 @@ section.banner {
     background-position: center;
     color: #fff;
     text-align: left;
+    height: 800px;
     padding: 150px 0;
-    margin: 50px auto;
+}
+
+section.banner .wrapper {
+    padding-top: 200px;
 }
 
 section.banner h1 {
@@ -114,13 +118,13 @@ section.banner .adress {
 }
 
 .sentence {
-    margin: 0;
+    margin: 100px 0;
     text-align: center;
 }
 
 .sentence h2 {
     font-size: 45pt;
-    font-weight: 600;
+    font-weight: 800;
 }
 
 .sentence h3 {
@@ -153,10 +157,6 @@ section.skills .skills-wrapper {
     
 }
 
-.sentence h2 {
-    font-size: 45pt;
-    font-weight: 600;
-}
 section.skills .skills-wrapper .skills-item {
     width: 33,3%;
     text-align: center;
@@ -181,12 +181,15 @@ section.skills .skills-wrapper .skills-item p {
     background-color: #4ea392;
     text-align: center;
     color: white;
+    height: 400px;
 }
 
 section.cooperation h2 {
     font-weight: 800;
     font-size: 27pt;
     margin-bottom: 0;
+    margin-top: 0;
+    padding-top: 70px;
 }
 
 section.cooperation p {
@@ -194,19 +197,17 @@ section.cooperation p {
     font-size: 23pt;
     margin-top: 0;
 }
-section.skills .skills-wrapper .skills-item img {
-    height: 80px;
-}
 
 .cooperation .cooperation-wrapper {
     display: flex;
     justify-content: space-around;
+
 }
 
 section.cooperation .cooperation-wrapper .partner {
     width: 33,3%;
     text-align: center;
-    margin: 60px 0;
+    margin: 40px 0;
     padding: 0 30px;
 }
 
@@ -219,11 +220,6 @@ section.cooperation .cooperation-wrapper .partner {
     background-color:white;
     margin: 25px auto;
 }
-section.skills .skills-wrapper .skills-item h4 {
-    font-size: 18pt;
-    margin: 30px 0 30px;
-}
-
 
 section.achievements  {
     background-color: rgb(233, 233, 233);
