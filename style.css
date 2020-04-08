@@ -265,13 +265,6 @@ section.achievements .achievements-wrapper p {
     color: black;
     width: 100%;
 }
-.quote {
-    background-color: #4ea392;
-    height: 500px;
-    color: white;
-    text-align: center;
-    margin: 0;
-}
 
 section.profit h2 {
     font-weight: 800;
@@ -280,47 +273,29 @@ section.profit h2 {
     margin-top: 0;
     padding-top: 70px;
 }
-.quote p {
-    margin-top: 0;
-    font-size: 21pt;
-    font-weight: 400;
-    padding: 80px 40px 0;
-}
+
 
 section.profit .first {
     font-weight: 400;
     font-size: 23pt;
     margin-top: 0;
 }
-.quote p::after {
-    content: "";
-    display: block;
-    height: 2px;
-    width: 150px;
-    text-align: center;
-    background-color: white;
-    margin: 25px auto 0;
+
 
 .profit .first::after {
     content: "";
     display: block;
     width: 150px;
     max-width: 100%;
-    height: 1px;
+    height: 2px;
     background-color: grey;
     margin: 25px auto;
-}
 }
 
 .profit-wrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-}
-.quote h3 {
-    font-size: 18;
-    font-weight: 400;
-    padding: 0;
 }
 
 .profit-wrapper .profit-item {
@@ -356,4 +331,37 @@ section.profit .first {
     margin: 9px auto;
     margin-bottom: 30px;
 }
+
+.quote {
+    background-color: #4ea392;
+    height: 500px;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+.quote p {
+    margin-top: 0;
+    font-size: 21pt;
+    font-weight: 400;
+    padding: 80px 40px 0;
+}
+
+.quote p::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 150px;
+    text-align: center;
+    background-color: white;
+    margin: 25px auto 0;
+}
+
+.quote h3 {
+    font-size: 18;
+    font-weight: 400;
+    padding: 0;
+}
+
+
 
