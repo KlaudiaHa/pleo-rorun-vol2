@@ -236,7 +236,7 @@ section.achievements .achievements-wrapper h4 {
     font-size: 50pt;
     color: #4ea392;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 50%;
 }
 
 section.achievements .achievements-wrapper p {
@@ -247,11 +247,74 @@ section.achievements .achievements-wrapper p {
     text-align: center;
 }
 
+.profit {
+    background-color: #fff;
+    text-align: center;
+    color: black;
+    width: 100%;
+}
+
+section.profit h2 {
+    font-weight: 800;
+    font-size: 27pt;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-top: 70px;
+}
+
+section.profit .first {
+    font-weight: 400;
+    font-size: 23pt;
+    margin-top: 0;
+}
+
+.profit .first::after {
+    content: "";
+    display: block;
+    width: 150px;
+    max-width: 100%;
+    height: 1px;
+    background-color: grey;
+    margin: 25px auto;
+}
+
+.profit-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.profit-wrapper .profit-item {
+    width: 33.3%;
+    text-align: center;
+    padding: 25px 40px;
+}
+
+.profit-wrapper h4 {
+    font-weight: 400;
+    font-size: 18pt;
+    margin-top: 0;
+}
+
+.profit-wrapper span {
+    color: #4ea392;
+}
 
 
+.profit-wrapper p {
+    font-weight: 300;
+    font-size: 13pt;
+    margin-top: 0;
+}
 
-
-
-
-
+.profit-wrapper h4::after {
+    content: "";
+    display: block;
+    width: 100px;
+    max-width: 100%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.3);
+    margin: 9px auto;
+    margin-bottom: 30px;
+}
 
