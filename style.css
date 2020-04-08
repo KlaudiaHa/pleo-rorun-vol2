@@ -24,14 +24,15 @@ h1, h2, h3, h4, h5, h6 {
 
 .btn {
     display: block;
-    height: 50px;
+    
     width: 300px;
-    font-weight: 600;
+    font-weight: 700;
     background-color: white;
     color: #4ea392;
     text-decoration: none;
-    padding: 10px;
-    margin: 25px auto;
+    padding: 15px;
+    margin: 60px auto 0;
+    font-size: 12pt;
 }
 
 header {
@@ -275,14 +276,15 @@ section.profit h2 {
 }
 
 
-section.profit .first {
+.first {
     font-weight: 400;
     font-size: 23pt;
     margin-top: 0;
+    color: rgb(77, 77, 77);
 }
 
 
-.profit .first::after {
+.first::after {
     content: "";
     display: block;
     width: 150px;
@@ -363,5 +365,76 @@ section.profit .first {
     padding: 0;
 }
 
+.news {
+    text-align: center;
+
+}
+
+.news h2 {
+    font-weight: 800;
+    font-size: 27pt;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-top: 70px;
+}
 
 
+div.dymek{
+    padding: 110px;
+    background: rgb(233, 233, 233);
+    height: 600px;
+    max-width: auto;
+    position: relative;
+    margin-top: 60px;
+  }
+
+  div.dymek::before{
+    content:'';
+    position: absolute;
+    left: 46.5%;
+    top: -5px;
+    width: 100px;
+    height: 100px;
+    display: block;
+    transform: rotate(45deg);
+    background: inherit;
+  }
+
+  .news {
+      text-align: center;
+  }
+
+  .news .news-wrapper {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .news .news-wrapper .news-item {
+      background-color: white;
+      border-bottom: 3px solid #4ea392;
+  }
+
+  .news-item {
+      text-align: left;
+      color: rgb(77, 77, 77);
+      
+  }
+
+  .news-item h4 {
+    font-size: 18pt;
+    margin-left: 20px;
+    font-weight: 400;
+    margin-top: 10px;
+  }
+
+  .news-item p {
+    font-size: 13pt;
+    margin-left: 20px;
+    margin-top: 0px;
+    font-weight: 200;
+  }
+
+  .news-wrapper::after {
+      content: "";
+
+  }
