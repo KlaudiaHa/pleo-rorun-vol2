@@ -391,7 +391,7 @@ div.dymek{
 div.dymek::before{
     content:'';
     position: absolute;
-    left: 46.5%;
+    left: 50%;
     top: -5px;
     width: 100px;
     height: 100px;
