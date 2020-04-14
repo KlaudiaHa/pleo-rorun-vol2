@@ -143,6 +143,100 @@ section.banner .adress {
     font-style: italic;
 }
 
+section.banner-contact {
+    background-image: url('Rorun_layout_pliki/kontakt/background_image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: left;
+    height: 800px;
+    padding: 150px 0;
+}
+
+section.banner-contact .wrapper {
+    padding-top: 200px;
+}
+
+section.banner-contact h1 {
+    font-size: 100pt;
+    line-height: 85pt;
+    font-weight: 800;
+}
+
+section.banner-contact h2 {
+    font-size: 54pt;
+    font-weight: 400;
+}
+
+section.banner-contact .description {
+    font-size: 18pt;
+    font-weight: 400;
+}
+
+
+section.banner-contact .description::after {
+    display: block;
+    content: "";
+    width: 300px;
+    max-width: 100%;
+    height: 2px;
+    background-color: white;
+    margin: 50px 0 ;
+}
+
+section.banner-contact .adress {
+    font-style: italic;
+}
+
+
+section.banner-about {
+    background-image: url('Rorun_layout_pliki/o nas/background_image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: left;
+    height: 800px;
+    padding: 150px 0;
+}
+
+section.banner-about .wrapper {
+    padding-top: 200px;
+}
+
+section.banner-about h1 {
+    font-size: 100pt;
+    line-height: 85pt;
+    font-weight: 800;
+}
+
+section.banner-about h2 {
+    font-size: 54pt;
+    font-weight: 400;
+}
+
+section.banner-about .description {
+    font-size: 18pt;
+    font-weight: 400;
+}
+
+
+section.banner-about .description::after {
+    display: block;
+    content: "";
+    width: 300px;
+    max-width: 100%;
+    height: 2px;
+    background-color: white;
+    margin: 50px 0 ;
+}
+
+section.banner-about .adress {
+    font-style: italic;
+}
+
+
 section.banner-aktualnosci {
     background-image: url('Rorun_layout_pliki/aktualnosci/background_image.jpg');
     background-repeat: no-repeat;
@@ -539,6 +633,12 @@ div.dymek::before{
 }
 
 
+.form-contact {
+    background-color:  rgb(233, 233, 233);
+    height: 600px;
+    width: 100%;
+}
+
 .footer {
     width: 100%;
     height: 100px;
@@ -588,6 +688,38 @@ div.dymek::before{
     color: #666;
 }
 
+#map-contact {
+    height: 600px;
+    width: 100%;
+    position: relative;
+    z-index: 0;
+}
+
+.contact #background {
+    color: rgb(233, 233, 233);
+    height: 600px;
+    width: 100%;
+}
+
+  .form-contact {
+    background-color:white;
+    height: 700px;
+    width: 1000px;
+    margin-top: -800px;
+    padding-left: 50px;
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    -webkit-box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
+    -moz-box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
+    box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
+    font-size: 14pt;
+    color: #666;
+    position: absolute;
+    z-index: 1;
+}
+
 .form input {
     width: 900px;
     background-color: white;
@@ -599,6 +731,7 @@ div.dymek::before{
 
 .form label {
     margin-left: 10px;
+    margin-top: 10px;
 }
 
 .form textarea {
@@ -620,6 +753,87 @@ div.dymek::before{
     margin: 60px 0 0;
     font-size: 12pt;
 }
+
+
+.form-contact input {
+    display: flex;
+    justify-content: flex-start;
+    width: 450px;
+    background-color: white;
+    color: #666;
+    border: 2px solid #ddd;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 3px;
+}
+
+.form-contact label {
+    margin-left: 10px;    
+}
+
+.form-contact label::after {
+    content:'required';
+    font-size: 12pt;
+    color: #4ea392;
+    width: 100px;
+    height: 100px;
+    margin-left: 274px;
+}
+
+.form-contact .subject::after {
+    display: none;
+}
+
+.form-contact .message::after {
+    margin-left: 293px;
+}
+
+.form-contact textarea {
+    display: flex;
+    width: 450px;
+    background-color: white;
+    color: #666;
+    border: 2px solid #ddd;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 3px;
+}
+
+.form-contact button { 
+    display: block;
+    width: 300px;
+    font-weight: 700;
+    background-color: #4ea392;
+    color: white;
+    padding: 15px;
+    font-size: 12pt;
+}
+
+.form-contact .text {
+    margin-bottom: 100px;
+    margin-left: 60px;
+    margin-right: 40px;
+}
+
+.form-contact .text h2 {
+    font-size: 18pt;
+    font-weight: 600;
+}
+
+.form-contact .text p {
+    font-size: 12pt;
+    font-weight: 200;
+    color: #666;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.form-contact .text h3 {
+    font-size: 16pt;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
 
 .article p {
     font-size: 13pt;
