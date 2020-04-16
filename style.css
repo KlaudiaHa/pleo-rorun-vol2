@@ -991,6 +991,10 @@ div.dymek-team::before{
 
 .text {
     padding: 70px;
+    font-size: 13pt;
+    font-weight: 400;
+    color: grey;
+    text-align: justify;
 }
 
 .apply {
