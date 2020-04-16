@@ -574,7 +574,7 @@ div.dymek::before{
       text-align: left;
       color: rgb(77, 77, 77);
       margin-top: 10px;
-      margin-left: 70px;
+      margin-left: 50px;
 }
 
 .news-wrapper .news-box-item {
@@ -632,13 +632,6 @@ div.dymek::before{
     padding-top: 70px;
 }
 
-
-.form-contact {
-    background-color:  rgb(233, 233, 233);
-    height: 600px;
-    width: 100%;
-}
-
 .footer {
     width: 100%;
     height: 100px;
@@ -671,13 +664,17 @@ div.dymek::before{
 #map {
     height: 600px;
     width: 100%;
+    position: relative;
+    z-index: 0;
   }
 
   .form {
     background-color:white;
     height: 700px;
     width: 1000px;
-    margin: 50px auto;
+    margin-top: -800px;
+    margin-left: 100px;
+    margin-right: 100px;
     padding: 50px;
     display: flex;
     justify-content: space-around;
@@ -686,6 +683,8 @@ div.dymek::before{
     box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
     font-size: 14pt;
     color: #666;
+    position: absolute;
+    z-index: 1;
 }
 
 #map-contact {
@@ -706,6 +705,8 @@ div.dymek::before{
     height: 700px;
     width: 1000px;
     margin-top: -800px;
+    margin-left: 100px;
+    margin-right: 100px;
     padding-left: 50px;
     padding-top: 25px;
     display: flex;
@@ -861,3 +862,43 @@ div.dymek::before{
     display: block;
     margin: 0 auto;
 }
+
+section.number .number-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px 200px;
+}
+
+section.number .number-wrapper .number-p {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+
+section.number .number-wrapper h4 {
+    font-size: 50pt;
+    color: #4ea392;
+    text-align: right;
+    padding-top: 10px;
+}
+
+section.number .number-wrapper p {
+    font-size: 18pt;
+    color: grey;
+    font-weight: 400;
+    padding-top: 20px;
+    text-align: left;
+}
+
+section.number p {
+    font-size: 13pt;
+    font-weight: 400;
+    color: grey;
+    text-align: justify;
+   
+}
+
+
+
